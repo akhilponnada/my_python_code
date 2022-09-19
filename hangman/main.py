@@ -44,7 +44,7 @@ while not game_over:
     if lives == 0:
       game_over = True
       print("Your lives are over and you lose.")
-  print(f"lives remaining: {stages[lives]} ")
+  print(f"lookout for the hangman: {stages[lives]} ")
       
   print(display_list)
   # setting the game over to true after there are no "_" in list.
